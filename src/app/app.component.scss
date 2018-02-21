@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+.appRoot {
+  height: 100%; 
+  width: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.appRoot .title {
+  font-size: 70px; // TODO: should this be based on viewport size?
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  margin-bottom: 50px;
+}
